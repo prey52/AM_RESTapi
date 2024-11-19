@@ -1,0 +1,6 @@
+@AM_server_rest_HostAddress = http://localhost:5098
+
+GET {{AM_server_rest_HostAddress}}/Routes/
+Accept: application/json
+
+###
